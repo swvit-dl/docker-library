@@ -7,3 +7,21 @@
 [submodule "tutum-mysql"]
 	path = tutum-mysql
 	url = https://github.com/swvitaliy/tutum-docker-mysql
+[submodule "tutum-rabbitmq"]
+	path = tutum-rabbitmq
+	url = git@github.com:tutumcloud/tutum-docker-rabbitmq.git
+[submodule "tutum-lamp"]
+	path = tutum-lamp
+	url = git@github.com:tutumcloud/tutum-docker-lamp.git
+[submodule "tutum-postgresql"]
+	path = tutum-postgresql
+	url = git@github.com:tutumcloud/tutum-docker-postgresql.git
+[submodule "tutum-php"]
+	path = tutum-php
+	url = git@github.com:tutumcloud/tutum-docker-php.git
+[submodule "tutum-elasticsearch"]
+	path = tutum-elasticsearch
+	url = git@github.com:tutumcloud/tutum-docker-elasticsearch.git
+[submodule "tutum-redis"]
+	path = tutum-redis
+	url = git@github.com:tutumcloud/tutum-docker-redis.git

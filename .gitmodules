@@ -1,0 +1,6 @@
+[submodule "golang"]
+	path = golang
+	url = git@github.com:swvitaliy/docker-golang.git
+[submodule "haskell_book_sandbox"]
+	path = haskell_book_sandbox
+	url = git@github.com:swvitaliy/docker-haskell-sandbox.git

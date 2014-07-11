@@ -4,3 +4,6 @@
 [submodule "haskell-sandbox"]
 	path = haskell-sandbox
 	url = git@github.com:swvitaliy/docker-haskell-sandbox.git
+[submodule "tutum-mysql"]
+	path = tutum-mysql
+	url = https://github.com/swvitaliy/tutum-docker-mysql

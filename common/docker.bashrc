@@ -1,3 +1,4 @@
+# http://kartar.net/2014/03/some-useful-docker-bash-functions-and-aliases/
 
 # return the IP address of the specific container
 # $ dip 72bbff4d768c

@@ -3,4 +3,4 @@ hqx
 shipyard
 *.sublime-project
 *.sublime-workspace
-
+data/*

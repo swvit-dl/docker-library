@@ -14,9 +14,10 @@ RUN useradd -m -p secret worker
 RUN chsh -s /bin/bash worker  
 RUN su - worker -c "touch ~/.bash_profile"
 
-ADD startup.sh /opt/startup.sh
+ADD startup.sh /startup.sh
+RUN chmod 755 /startup.sh
 
 # Start the shell as the worker user
 #
 # Usage: docker run -t -i $IMAGE
-CMD ["/opt/startup.sh"]
+CMD ["/startup.sh"]

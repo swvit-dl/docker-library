@@ -1,6 +1,7 @@
-dockerui
-hqx
-shipyard
+*.swp
 *.sublime-project
 *.sublime-workspace
+images/dockerui
+images/hqx
+images/shipyard
 data/*

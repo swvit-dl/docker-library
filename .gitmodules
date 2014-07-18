@@ -1,27 +1,27 @@
 [submodule "golang"]
-	path = golang
+	path = images/golang
 	url = git@github.com:swvitaliy/docker-golang.git
 [submodule "haskell-sandbox"]
-	path = haskell-sandbox
+	path = images/haskell-sandbox
 	url = git@github.com:swvitaliy/docker-haskell-sandbox.git
 [submodule "tutum-mysql"]
-	path = tutum-mysql
+	path = images/tutum-mysql
 	url = https://github.com/swvitaliy/tutum-docker-mysql
 [submodule "tutum-rabbitmq"]
-	path = tutum-rabbitmq
+	path = images/tutum-rabbitmq
 	url = git@github.com:tutumcloud/tutum-docker-rabbitmq.git
 [submodule "tutum-lamp"]
-	path = tutum-lamp
+	path = images/tutum-lamp
 	url = git@github.com:tutumcloud/tutum-docker-lamp.git
 [submodule "tutum-postgresql"]
-	path = tutum-postgresql
+	path = images/tutum-postgresql
 	url = git@github.com:tutumcloud/tutum-docker-postgresql.git
 [submodule "tutum-php"]
-	path = tutum-php
+	path = images/tutum-php
 	url = git@github.com:tutumcloud/tutum-docker-php.git
 [submodule "tutum-elasticsearch"]
-	path = tutum-elasticsearch
+	path = images/tutum-elasticsearch
 	url = git@github.com:tutumcloud/tutum-docker-elasticsearch.git
 [submodule "tutum-redis"]
-	path = tutum-redis
+	path = images/tutum-redis
 	url = git@github.com:tutumcloud/tutum-docker-redis.git

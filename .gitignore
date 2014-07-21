@@ -5,3 +5,4 @@ images/dockerui
 images/hqx
 images/shipyard
 data/*
+*.env

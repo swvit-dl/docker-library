@@ -1,0 +1,16 @@
+app:
+    image: swvitaliy/php53unit
+    command: /bin/bash
+    links:
+        - db
+    volumes:
+        - /home/vit/local/smi2/egen:/opt/egen:rw
+
+db:
+    image: swvitaliy/tutum-mysql
+    environment:
+        MYSQL_PASS: 123
+    ports:
+      - "3316:3306"
+    volumes:
+      - /home/vit/Projects/docker/data/mysql:/var/lib/mysql

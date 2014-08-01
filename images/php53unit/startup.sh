@@ -9,6 +9,7 @@ chown worker:worker $ENV_FILE
 echo "source $ENV_FILE" >> /home/worker/.bash_profile
 
 # Install phpunit globally
-su -c 'composer global require "phpunit/phpunit=4.1.*" && PATH=/home/worker/.composer/vendor/bin:$PATH' - worker
+su -c 'composer global require "phpunit/phpunit=4.1.*"' - worker
+su -c 'PATH=/home/worker/.composer/vendor/bin:$PATH' - worker
 
 su - worker

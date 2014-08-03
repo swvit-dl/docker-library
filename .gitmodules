@@ -25,3 +25,6 @@
 [submodule "tutum-redis"]
 	path = images/tutum-redis
 	url = git@github.com:tutumcloud/tutum-docker-redis.git
+[submodule "images/mailcatcher"]
+	path = images/mailcatcher
+	url = git@github.com:danielfarrell/mailcatcher-docker.git

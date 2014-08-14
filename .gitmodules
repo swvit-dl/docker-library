@@ -28,3 +28,6 @@
 [submodule "images/mailcatcher"]
 	path = images/mailcatcher
 	url = git@github.com:danielfarrell/mailcatcher-docker.git
+[submodule "images/ejabberd"]
+	path = images/ejabberd
+	url = git@github.com:swvitaliy/docker-ejabberd.git

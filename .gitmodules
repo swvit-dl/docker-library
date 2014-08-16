@@ -31,3 +31,6 @@
 [submodule "images/ejabberd"]
 	path = images/ejabberd
 	url = git@github.com:swvitaliy/docker-ejabberd.git
+[submodule "images/ejabberd-mysql"]
+	path = images/ejabberd-mysql
+	url = git@github.com:swvitaliy/docker-ejabberd-mysql.git

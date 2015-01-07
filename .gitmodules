@@ -34,3 +34,27 @@
 [submodule "images/ejabberd-mysql"]
 	path = images/ejabberd-mysql
 	url = git@github.com:swvitaliy/docker-ejabberd-mysql.git
+[submodule "images/ansible-docker-base"]
+	path = images/ansible-docker-base
+	url = git@github.com:ansible/ansible-docker-base.git
+[submodule "images/cruise_control"]
+	path = images/cruise_control
+	url = git@github.com:vineetosscube/Docker-Cruisecontrol.git
+[submodule "images/jekyll-blog"]
+	path = images/jekyll-blog
+	url = git@github.com:swvitaliy/docker-jekyll-blog.git
+[submodule "images/orocrm"]
+	path = images/orocrm
+	url = git@github.com:swvitaliy/docker-orocrm.git
+[submodule "images/php-essentials"]
+	path = images/php-essentials
+	url = git@bitbucket.org:swvitaliy/docker-php-essentials.git
+[submodule "images/phpbrew"]
+	path = images/phpbrew
+	url = git@bitbucket.org:swvitaliy/docker-phpbrew.git
+[submodule "images/phpdoc"]
+	path = images/phpdoc
+	url = git@bitbucket.org:swvitaliy/docker-phpdoc.git
+[submodule "images/ros/indigo-base"]
+	path = images/ros/indigo-base
+	url = https://github.com/osblinnikov/rosDocker.git
